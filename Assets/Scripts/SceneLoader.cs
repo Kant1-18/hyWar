@@ -1,7 +1,6 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
-
 
 public class SceneLoader : MonoBehaviour
 {
@@ -37,5 +36,3 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 }
-
-
