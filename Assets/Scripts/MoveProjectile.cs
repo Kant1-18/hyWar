@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
+using System.Collections;
 
-public class MoveEnemy : MonoBehaviour
+public class MoveProjectile : MonoBehaviour
 {
-    public float speed = 1f;
+    public float speed = 5f;
 
     private void Update()
     {

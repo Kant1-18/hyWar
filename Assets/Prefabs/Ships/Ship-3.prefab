@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7479420598193841251}
   - component: {fileID: 7479420598193841260}
   - component: {fileID: 7479420598193841261}
+  - component: {fileID: 477311427850408216}
   m_Layer: 0
   m_Name: Ship-3
   m_TagString: Untagged
@@ -110,3 +111,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &477311427850408216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7479420598193841262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486ddd9b0f83446c09ddf79d5278b58c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 1728399189121811299, guid: ade8c9aa71c8f4f2582f927cf0a5a90b, type: 3}
