@@ -5,7 +5,7 @@ AssetOrigin:
   productId: 208921
   packageName: Enemy Galore 1 - Pixel Art
   packageVersion: 1.2
-  assetPath: Assets/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_AttackA_FX.png
+  assetPath: Assets/Sprites/Enemy Galore 1 - Pixel Art/Sprites/Golem/Golem_AttackA_FX.png
   uploadId: 503193
 TextureImporter:
   internalIDToNameTable:
