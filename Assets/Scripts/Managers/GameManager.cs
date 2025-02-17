@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
-public class StartGame : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     public int Score;
     public int Coins;
