@@ -3,7 +3,6 @@ using UnityEngine;
 public class ProjectilesSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject[] projectilesPrefabs;
-    [SerializeField] private Transform[] spawnPortals;
 
     public float projectilesSpawnTime = 2f;
 
@@ -28,10 +27,9 @@ public class ProjectilesSpawner : MonoBehaviour
     private void Spawn()
     {
         GameObject projectilesToSpawn = projectilesPrefabs[Random.Range(0, projectilesPrefabs.Length)];
-        //random select portal
-        Transform randomPortal = spawnPortals[Random.Range(0, spawnPortals.Length)];
+        
         //spawn with the prefab rotation
-        GameObject spawnedProjectiles = Instantiate(projectilesToSpawn, randomPortal.position, Quaternion.identity);
+        GameObject spawnedProjectiles = Instantiate(projectilesToSpawn, transform.position, Quaternion.identity);
     }
 }
 
