@@ -1,12 +1,39 @@
 ﻿using UnityEngine;
 
+
 public class ClickCase : MonoBehaviour
 {
-    public string caseName;
-    // Cette méthode est appelée automatiquement quand l'objet est cliqué
+    public GameObject generator;
+    public GameObject shield;
+    public GameObject ship1;
+    public GameObject ship2;
+    public GameObject ship3;
+
     private void OnMouseDown()
     {
-        Debug.Log(gameObject.name + caseName + " a été cliqué !");
-        // Ajoute ici le comportement souhaité lors du clic.
+        if (GlobalVariables.friendObject == "generator")
+        {
+
+        }
+
+        if (GlobalVariables.friendObject == "ship-1")
+        {
+
+        }
+
+        if (GlobalVariables.friendObject == "ship-2")
+        {
+
+        }
+
+        if (GlobalVariables.friendObject == "ship-2")
+        {
+
+        }
+
+        if (GlobalVariables.friendObject == "shield")
+        {
+
+        }
     }
 }
