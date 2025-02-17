@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8150644322734536951}
   - component: {fileID: 7495242353719884417}
   m_Layer: 0
-  m_Name: BlueProjectile
+  m_Name: YellowProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,8 +26,8 @@ Transform:
   m_GameObject: {fileID: 722584354982867437}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7106327, w: 0.7035633}
-  m_LocalPosition: {x: 0.3901, y: -2.0239, z: 0}
-  m_LocalScale: {x: 0.06439623, y: 0.1851, z: 1}
+  m_LocalPosition: {x: -3.31, y: -1.63, z: 0}
+  m_LocalScale: {x: 0.09391546, y: 0.20392467, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,9 +75,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 0, g: 0.8998494, b: 1, a: 1}
+  m_Color: {r: 0.95805883, g: 1, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
