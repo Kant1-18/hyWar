@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5955226979344971128}
   - component: {fileID: 4473069376619557181}
+  - component: {fileID: -5830162169216756116}
   m_Layer: 0
   m_Name: CoinGame-Full
   m_TagString: Untagged
@@ -87,3 +88,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-5830162169216756116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6434095570336017437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe00b267f586419fb8628a87019c3b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -69,4 +69,16 @@ public class Spawner : MonoBehaviour
         GameObject spawnedObject = Instantiate(SelectEnemy(GlobalVariables.Difficulty));
         spawnedObject.transform.position = position;
     }
+
+    public void GeneratorFull(Vector3 position)
+    {
+        GameObject spawnedObject = Instantiate(GlobalVariables.PrefabGeneratorFull);
+        spawnedObject.transform.position = position;
+    }
+
+    public void GeneratorEmpty(Vector3 position)
+    {
+        GameObject spawnedObject = Instantiate(GlobalVariables.PrefabGeneratorEmpty);
+        spawnedObject.transform.position = position;
+    }
 }

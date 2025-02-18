@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public int Difficulty;
     public int EnemiesTime;
     public int EnemiesSpeed;
+    public int GeneratorTime;
 
     public GameObject PrefabGeneratorEmpty;
     public GameObject PrefabGeneratorFull;
@@ -26,6 +27,7 @@ public class GameManager : MonoBehaviour
         //init constantes
         GlobalVariables.Score = Score;
         GlobalVariables.Coins = Coins;
+        GlobalVariables.GeneratorTime = GeneratorTime;
 
         GlobalVariables.Difficulty = Difficulty;
         GlobalVariables.EnemiesTime = EnemiesTime;
