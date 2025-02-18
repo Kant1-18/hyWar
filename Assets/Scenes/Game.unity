@@ -2261,13 +2261,25 @@ MonoBehaviour:
   Coins: 500
   Difficulty: 1
   EnemiesTime: 1
-  EnemiesSpeed: 0
+  EnemiesSpeed: 2
   GeneratorTime: 2400
   Ship1Cost: 200
   Ship2Cost: 350
   Ship3Cost: 500
   ShieldCost: 300
   GeneratorCost: 400
+  ShipLife1: 0
+  ShipLife2: 0
+  ShipLife3: 0
+  ShipAttack1: 0
+  ShipAttack2: 0
+  ShipAttack3: 0
+  EnemyLife1: 0
+  EnemyLife2: 0
+  EnemyLife3: 0
+  EnemyAttack1: 0
+  EnemyAttack2: 0
+  EnemyAttack3: 0
   PrefabGeneratorEmpty: {fileID: 838066469909299691, guid: 85237316598344cecae4c3c02270254e, type: 3}
   PrefabGeneratorFull: {fileID: 6434095570336017437, guid: b14448448cb40442191bbf75e7680a6d, type: 3}
   PrefabShield: {fileID: 2262270564215313727, guid: 7b9f5b3a85c8641aa879c6d3a285b7b3, type: 3}
