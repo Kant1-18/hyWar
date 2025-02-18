@@ -3,6 +3,11 @@ using System.Collections;
 
 public class Spawner : MonoBehaviour
 {
+    private Portal1 portal1 = new Portal1();
+    private Portal2 portal2 = new Portal2();
+    private Portal3 portal3 = new Portal3();
+    private Portal4 portal4 = new Portal4();
+
     private GameObject SelectFriend()
     {
         switch (GlobalVariables.FriendObject)
@@ -99,25 +104,35 @@ public class Spawner : MonoBehaviour
 
     public void ActiveRandomPortals()
     {
-        int portal2Active = Random.Range(1, 5);
-
-        switch (portal2Active)
-        {
-            case 1:
-                GlobalVariables.isActivePortal1 = true;
-                return;
-
-            case 2:
-                GlobalVariables.isActivePortal2 = true;
-                return;
-
-            case 3:
-                GlobalVariables.isActivePortal3 = true;
-                return;
-
-            case 4:
-                GlobalVariables.isActivePortal4 = true;
-                return;
-        }
+        //StartCoroutine(RandomPortals());
     }
+
+    //private IEnumerator RandomPortals()
+    //{
+    //    while (true)
+    //    {
+    //        int portal2Active = Random.Range(1, 5);
+
+    //        switch (portal2Active)
+    //        {
+    //            case 1:
+    //                portal1.Spawn();
+    //                continue;
+
+    //            case 2:
+    //                portal2.Spawn();
+    //                continue;
+
+    //            case 3:
+    //                portal3.Spawn();
+    //                continue;
+
+    //            case 4:
+    //                portal4.Spawn();
+    //                continue;
+    //        }
+
+    //        yield return new WaitForSeconds(GlobalVariables.EnemiesTime);
+    //    }
+    //}
 }

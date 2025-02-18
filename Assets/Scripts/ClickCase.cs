@@ -3,7 +3,7 @@
 
 public class ClickCase : MonoBehaviour
 {
-    private Spawner spawner = new Spawner();
+    private Spawner spawner;
 
     private void OnMouseDown()
     {

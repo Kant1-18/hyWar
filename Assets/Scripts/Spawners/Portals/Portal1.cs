@@ -3,26 +3,9 @@ using System.Collections;
 
 public class Portal1 : MonoBehaviour
 {
-    private Spawner spawner = new Spawner();
+    private Spawner spawner;
 
-    void Update()
-    {
-        if (GlobalVariables.isActivePortal1)
-        {
-            SpawnObject();
-        }
-    }
-
-    IEnumerator SpawnObject()
-    {
-        while (true)
-        {
-            SpawnGameObject();
-            yield return new WaitForSeconds(GlobalVariables.EnemiesTime);
-        }
-    }
-
-    void SpawnGameObject()
+    public void Spawn()
     {
         spawner.Enemy(transform.position);
     }
