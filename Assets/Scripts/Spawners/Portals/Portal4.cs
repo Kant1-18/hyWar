@@ -5,9 +5,9 @@ public class Portal4 : MonoBehaviour
 {
     private Spawner spawner = new Spawner();
 
-    void Update()
+    void Start()
     {
-        if (GlobalVariables.isActivePortal4) SpawnObject();
+        StartCoroutine(SpawnObject());
     }
 
     IEnumerator SpawnObject()

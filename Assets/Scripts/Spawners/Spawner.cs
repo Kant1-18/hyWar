@@ -97,27 +97,27 @@ public class Spawner : MonoBehaviour
         spawnedObject.transform.position = position;
     }
 
-    public void ActiveRandomPortals()
-    {
-        int portal2Active = Random.Range(1, 5);
+    //public void ActiveRandomPortals()
+    //{
+    //    int portal2Active = Random.Range(1, 5);
 
-        switch (portal2Active)
-        {
-            case 1:
-                GlobalVariables.isActivePortal1 = true;
-                return;
+    //    switch (portal2Active)
+    //    {
+    //        case 1:
+    //            GlobalVariables.isActivePortal1 = true;
+    //            return;
 
-            case 2:
-                GlobalVariables.isActivePortal2 = true;
-                return;
+    //        case 2:
+    //            GlobalVariables.isActivePortal2 = true;
+    //            return;
 
-            case 3:
-                GlobalVariables.isActivePortal3 = true;
-                return;
+    //        case 3:
+    //            GlobalVariables.isActivePortal3 = true;
+    //            return;
 
-            case 4:
-                GlobalVariables.isActivePortal4 = true;
-                return;
-        }
-    }
+    //        case 4:
+    //            GlobalVariables.isActivePortal4 = true;
+    //            return;
+    //    }
+    //}
 }
