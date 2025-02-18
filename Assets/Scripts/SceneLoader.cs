@@ -35,4 +35,10 @@ public class SceneLoader : MonoBehaviour
         yield return new WaitForSeconds(delay);
         SceneManager.LoadScene(sceneName);
     }
+
+    public void QuitGame()
+    {
+        Debug.Log("Quitter le jeu !");
+        Application.Quit();
+    }
 }
