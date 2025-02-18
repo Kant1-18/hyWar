@@ -32,6 +32,8 @@ public class GameManager : MonoBehaviour
     public int EnemyAttack2;
     public int EnemyAttack3;
 
+    public int ShieldLife;
+
     public GameObject PrefabGeneratorEmpty;
     public GameObject PrefabGeneratorFull;
     public GameObject PrefabShield;
@@ -73,6 +75,7 @@ public class GameManager : MonoBehaviour
         GlobalVariables.EnemyAttack2 = EnemyAttack2;
         GlobalVariables.EnemyAttack3 = EnemyAttack3;
 
+        GlobalVariables.ShieldLife = ShieldLife;
 
         //init Prefabs
         GlobalVariables.PrefabGeneratorEmpty = PrefabGeneratorEmpty;
@@ -88,10 +91,10 @@ public class GameManager : MonoBehaviour
         GlobalVariables.PrefabEnemy2 = PrefabEnemy2;
         GlobalVariables.PrefabEnemy3 = PrefabEnemy3;
 
-        GlobalVariables.isFirstObjectSpawned = false;
-        GlobalVariables.isActivePortal1 = false;
-        GlobalVariables.isActivePortal2 = false;
-        GlobalVariables.isActivePortal3 = false;
-        GlobalVariables.isActivePortal4 = false;
+        GlobalVariables.isFirstObjectSpawned = true;
+        GlobalVariables.isActivePortal1 = true;
+        GlobalVariables.isActivePortal2 = true;
+        GlobalVariables.isActivePortal3 = true;
+        GlobalVariables.isActivePortal4 = true;
     }
 }

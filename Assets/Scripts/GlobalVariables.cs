@@ -31,6 +31,8 @@ public class GlobalVariables: MonoBehaviour
     public static int EnemyAttack2 { get; set; }
     public static int EnemyAttack3 { get; set; }
 
+    public static int ShieldLife { get; set; }
+
     public static GameObject PrefabShip1 { get; set; }
     public static GameObject PrefabShip2 { get; set; }
     public static GameObject PrefabShip3 { get; set; }
