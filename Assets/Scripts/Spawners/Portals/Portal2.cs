@@ -7,7 +7,7 @@ public class Portal2 : MonoBehaviour
 
     void Update()
     {
-        if (GlobalVariables.isActivePortal4) SpawnObject();
+        if (GlobalVariables.isActivePortal2) SpawnObject();
     }
 
     IEnumerator SpawnObject()
