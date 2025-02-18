@@ -2218,7 +2218,7 @@ Transform:
   m_GameObject: {fileID: 851019842}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5511171, y: 0.0046848245, z: -0.057970025}
+  m_LocalPosition: {x: -0.5511171, y: 0.25, z: -0.057970025}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2280,6 +2280,7 @@ MonoBehaviour:
   EnemyAttack1: 0
   EnemyAttack2: 0
   EnemyAttack3: 0
+  ShieldLife: 0
   PrefabGeneratorEmpty: {fileID: 838066469909299691, guid: 85237316598344cecae4c3c02270254e, type: 3}
   PrefabGeneratorFull: {fileID: 6434095570336017437, guid: b14448448cb40442191bbf75e7680a6d, type: 3}
   PrefabShield: {fileID: 2262270564215313727, guid: 7b9f5b3a85c8641aa879c6d3a285b7b3, type: 3}
