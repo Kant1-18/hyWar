@@ -7,7 +7,7 @@ public class GeneratorFull : MonoBehaviour
 
     private void OnMouseDown()
     {
-        GlobalVariables.Coins += 50;
+        GlobalVariables.Coins += 150;
         spawner.GeneratorEmpty(transform.position);
         Destroy(gameObject);
     }

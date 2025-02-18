@@ -2258,7 +2258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Score: 0
-  Coins: 500
+  Coins: 1000
   Difficulty: 1
   EnemiesTime: 1
   EnemiesSpeed: 2
