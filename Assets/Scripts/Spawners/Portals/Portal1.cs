@@ -3,17 +3,11 @@ using System.Collections;
 
 public class Portal1 : MonoBehaviour
 {
-    private Spawner spawner;
+    private Spawner spawner = new Spawner();
 
-    void Start()
+    void Update()
     {
-        while (true)
-        {
-            if (GlobalVariables.isActivePortal1) break;
-        }
-
-        SpawnObject();
-
+        if (GlobalVariables.isActivePortal4) SpawnObject();
     }
 
     IEnumerator SpawnObject()
