@@ -91,10 +91,10 @@ public class GameManager : MonoBehaviour
         GlobalVariables.PrefabEnemy2 = PrefabEnemy2;
         GlobalVariables.PrefabEnemy3 = PrefabEnemy3;
 
-        GlobalVariables.isFirstObjectSpawned = false;
-        GlobalVariables.isActivePortal1 = false;
-        GlobalVariables.isActivePortal2 = false;
-        GlobalVariables.isActivePortal3 = false;
-        GlobalVariables.isActivePortal4 = false;
+        GlobalVariables.isFirstObjectSpawned = true;
+        GlobalVariables.isActivePortal1 = true;
+        GlobalVariables.isActivePortal2 = true;
+        GlobalVariables.isActivePortal3 = true;
+        GlobalVariables.isActivePortal4 = true;
     }
 }
