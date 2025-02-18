@@ -10,6 +10,12 @@ public class GlobalVariables: MonoBehaviour
     public static int EnemiesSpeed { get; set; }
 
     public static int GeneratorTime { get; set; }
+    
+    public static int Ship1Cost { get; set; }
+    public static int Ship2Cost { get; set; }
+    public static int Ship3Cost { get; set; }
+    public static int ShieldCost { get; set; }
+    public static int GeneratorCost { get; set; }
 
     public static GameObject PrefabShip1 { get; set; }
     public static GameObject PrefabShip2 { get; set; }
