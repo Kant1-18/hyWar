@@ -13,7 +13,10 @@ public class ClickCase : MonoBehaviour
             spawner.ActiveRandomPortals();
         }
 
-        spawner.Friend(transform.position);
-        gameObject.SetActive(false);
+        GameObject spawnedFriend = spawner.Friend(transform.position);
+        if (spawnedFriend != null)
+        {
+            gameObject.SetActive(false);
+        }
     }
 }
