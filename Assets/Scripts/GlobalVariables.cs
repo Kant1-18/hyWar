@@ -25,4 +25,10 @@ public class GlobalVariables: MonoBehaviour
     public static GameObject PrefabEnemy3 { get; set; }
 
     public static string FriendObject { get; set; }
+
+    public static bool isFirstObjectSpawned { get; set; }
+    public static bool isActivePortal1 { get; set; }
+    public static bool isActivePortal2 { get; set; }
+    public static bool isActivePortal3 { get; set; }
+    public static bool isActivePortal4 { get; set; }
 }
