@@ -102,37 +102,45 @@ public class Spawner : MonoBehaviour
         spawnedObject.transform.position = position;
     }
 
-    public void ActiveRandomPortals()
-    {
-        //StartCoroutine(RandomPortals());
-    }
-
-    //private IEnumerator RandomPortals()
+    //public bool ActiveRandomPortals()
     //{
-    //    while (true)
+    //    int portal2Active = Random.Range(1, 5);
+
+    //    switch (portal2Active)
     //    {
-    //        int portal2Active = Random.Range(1, 5);
+    //        case 1:
+    //            if (GlobalVariables.isActivePortal1)
+    //            {
+    //                GlobalVariables.isActivePortal1 = true;
+    //                return true;
+    //            }
+    //            return false;
 
-    //        switch (portal2Active)
-    //        {
-    //            case 1:
-    //                portal1.Spawn();
-    //                continue;
+    //        case 2:
+    //            if (GlobalVariables.isActivePortal2)
+    //            {
+    //                GlobalVariables.isActivePortal2 = true;
+    //                return true;
+    //            }
+    //            return false;
 
-    //            case 2:
-    //                portal2.Spawn();
-    //                continue;
+    //        case 3:
+    //            if (GlobalVariables.isActivePortal3)
+    //            {
+    //                GlobalVariables.isActivePortal3 = true;
+    //                return true;
+    //            }
+    //            return false;
 
-    //            case 3:
-    //                portal3.Spawn();
-    //                continue;
-
-    //            case 4:
-    //                portal4.Spawn();
-    //                continue;
-    //        }
-
-    //        yield return new WaitForSeconds(GlobalVariables.EnemiesTime);
+    //        case 4:
+    //            if (GlobalVariables.isActivePortal4)
+    //            {
+    //                GlobalVariables.isActivePortal4 = true;
+    //                return true;
+    //            }
+    //            return false;
     //    }
+
+    //    return false;
     //}
 }
