@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class FriendscollisionHandler : MonoBehaviour
+public class EnemyCollision : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

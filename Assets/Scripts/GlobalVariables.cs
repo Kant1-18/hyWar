@@ -17,20 +17,6 @@ public class GlobalVariables: MonoBehaviour
     public static int ShieldCost { get; set; }
     public static int GeneratorCost { get; set; }
 
-    public static int ShipLife1 { get; set; }
-    public static int ShipLife2 { get; set; }
-    public static int ShipLife3 { get; set; }
-    public static int ShipAttack1 { get; set; }
-    public static int ShipAttack2 { get; set; }
-    public static int ShipAttack3 { get; set; }
-
-    public static int EnemyLife1 { get; set; }
-    public static int EnemyLife2 { get; set; }
-    public static int EnemyLife3 { get; set; }
-    public static int EnemyAttack1 { get; set; }
-    public static int EnemyAttack2 { get; set; }
-    public static int EnemyAttack3 { get; set; }
-
     public static GameObject PrefabShip1 { get; set; }
     public static GameObject PrefabShip2 { get; set; }
     public static GameObject PrefabShip3 { get; set; }
