@@ -5,7 +5,24 @@ public class Portal1 : MonoBehaviour
 {
     private Spawner spawner = new Spawner();
 
-    public void Spawn()
+    void Update()
+    {
+        if (GlobalVariables.isActivePortal1)
+        {
+            SpawnObject();
+        }
+    }
+
+    IEnumerator SpawnObject()
+    {
+        while (true)
+        {
+            SpawnGameObject();
+            yield return new WaitForSeconds(GlobalVariables.EnemiesTime);
+        }
+    }
+
+    void SpawnGameObject()
     {
         spawner.Enemy(transform.position);
     }
