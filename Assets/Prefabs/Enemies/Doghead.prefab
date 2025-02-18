@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3102440440339572841}
   - component: {fileID: 7734666267270747133}
   - component: {fileID: -3482910591486269462}
+  - component: {fileID: 8373623241484035202}
   m_Layer: 0
   m_Name: Doghead
   m_TagString: Enemy2
@@ -185,3 +186,19 @@ PolygonCollider2D:
       - {x: -0.155, y: -0.22999999}
       - {x: 0.305, y: -0.22999999}
   m_UseDelaunayMesh: 0
+--- !u!114 &8373623241484035202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6987283473524060008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b726541ce4db6a94b844bf79d6ceb303, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  life2: 0
+  Attack1: 0
+  Attack2: 0
+  Attack3: 0
