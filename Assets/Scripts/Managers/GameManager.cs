@@ -10,6 +10,12 @@ public class GameManager : MonoBehaviour
     public int Difficulty;
     public int EnemiesTime;
     public int EnemiesSpeed;
+    public int GeneratorTime;
+    public int Ship1Cost;
+    public int Ship2Cost;
+    public int Ship3Cost;
+    public int ShieldCost;
+    public int GeneratorCost;
 
     public int EnemiesLife1;
     public int EnemiesLife2;
@@ -40,10 +46,16 @@ public class GameManager : MonoBehaviour
         //init constantes
         GlobalVariables.Score = Score;
         GlobalVariables.Coins = Coins;
+        GlobalVariables.GeneratorTime = GeneratorTime;
 
         GlobalVariables.Difficulty = Difficulty;
         GlobalVariables.EnemiesTime = EnemiesTime;
         GlobalVariables.EnemiesSpeed = EnemiesSpeed;
+        GlobalVariables.ShieldCost = ShieldCost;
+        GlobalVariables.GeneratorCost = GeneratorCost;
+        GlobalVariables.Ship1Cost = Ship1Cost;
+        GlobalVariables.Ship2Cost = Ship2Cost;
+        GlobalVariables.Ship3Cost = Ship3Cost;
 
         GlobalVariables.EnemiesLife1 = EnemiesLife1;
         GlobalVariables.EnemiesLife2 = EnemiesLife2;
@@ -66,5 +78,11 @@ public class GameManager : MonoBehaviour
         GlobalVariables.PrefabEnemy1 = PrefabEnemy1;
         GlobalVariables.PrefabEnemy2 = PrefabEnemy2;
         GlobalVariables.PrefabEnemy3 = PrefabEnemy3;
+
+        GlobalVariables.isFirstObjectSpawned = false;
+        GlobalVariables.isActivePortal1 = false;
+        GlobalVariables.isActivePortal2 = false;
+        GlobalVariables.isActivePortal3 = false;
+        GlobalVariables.isActivePortal4 = false;
     }
 }
