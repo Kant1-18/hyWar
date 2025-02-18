@@ -10,7 +10,8 @@ public class GameManager : MonoBehaviour
     public int Difficulty;
     public int EnemiesTime;
 
-    public GameObject PrefabGenerator;
+    public GameObject PrefabGeneratorEmpty;
+    public GameObject PrefabGeneratorFull;
     public GameObject PrefabShield;
     public GameObject PrefabShip1;
     public GameObject PrefabShip2;
@@ -30,8 +31,10 @@ public class GameManager : MonoBehaviour
 
 
         //init Prefabs
-        //GlobalVariables.PrefabGenerator = PrefabGenerator;
-        //GlobalVariables.PrefabShield = PrefabShield;
+        GlobalVariables.PrefabGeneratorEmpty = PrefabGeneratorEmpty;
+        GlobalVariables.PrefabGeneratorFull = PrefabGeneratorFull;
+
+        GlobalVariables.PrefabShield = PrefabShield;
 
         GlobalVariables.PrefabShip1 = PrefabShip1;
         GlobalVariables.PrefabShip2 = PrefabShip2;

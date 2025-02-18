@@ -12,7 +12,8 @@ public class GlobalVariables: MonoBehaviour
     public static GameObject PrefabShip2 { get; set; }
     public static GameObject PrefabShip3 { get; set; }
     public static GameObject PrefabShield { get; set; }
-    public static GameObject PrefabGenerator { get; set; }
+    public static GameObject PrefabGeneratorEmpty { get; set; }
+    public static GameObject PrefabGeneratorFull { get; set; }
     public static GameObject PrefabEnemy1 { get; set; }
     public static GameObject PrefabEnemy2 { get; set; }
     public static GameObject PrefabEnemy3 { get; set; }

@@ -14,22 +14,22 @@ public class Spawner : MonoBehaviour
                 return GlobalVariables.PrefabShip2;
 
             case "ship3":
-                return GlobalVariables.PrefabShip2;
+                return GlobalVariables.PrefabShip3;
 
             case "shield":
-                return GlobalVariables.PrefabShip2;
+                return GlobalVariables.PrefabShield;
 
             case "generator":
-                return GlobalVariables.PrefabShip2;
+                return GlobalVariables.PrefabGeneratorEmpty;
         }
 
         return null;
     }
 
-    public void Friend()
+    public void Friend(Vector3 position)
     {
         GameObject spawnedPrefab = Instantiate(SelectFriend());
-        spawnedPrefab.transform.position = transform.position;
+        spawnedPrefab.transform.position = position;
     }
 
     private GameObject SelectEnemy(int difficulty)
