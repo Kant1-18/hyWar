@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -45,5 +46,15 @@ public class GameManager : MonoBehaviour
         GlobalVariables.PrefabEnemy1 = PrefabEnemy1;
         GlobalVariables.PrefabEnemy2 = PrefabEnemy2;
         GlobalVariables.PrefabEnemy3 = PrefabEnemy3;
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.P)) 
+        {
+            // Charge la scène "GamePause" en mode Additive pour garder la scène "Game" active
+            SceneManager.LoadScene("GamePause", LoadSceneMode.Additive);
+            
+            Time.timeScale = 0f;
+        }
     }
 }
