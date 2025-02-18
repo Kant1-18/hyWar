@@ -5,7 +5,7 @@ public class SpawnEnemy : MonoBehaviour
 {
     private Spawner spawner = new Spawner();
 
-    void Update()
+    public void Active()
     {
         switch (gameObject.name)
         {
@@ -43,9 +43,8 @@ public class SpawnEnemy : MonoBehaviour
     {
         while (true)
         {
-            
-
             SpawnGameObject();
+            Debug.Log("test spawn enemy");
             yield return new WaitForSeconds(GlobalVariables.EnemiesTime);
         }
     }

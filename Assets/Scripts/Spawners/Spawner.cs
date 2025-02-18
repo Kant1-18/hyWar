@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Spawner : MonoBehaviour
 {
+    private SpawnEnemy portal = new SpawnEnemy();
+
     private GameObject SelectFriend()
     {
         switch (GlobalVariables.FriendObject)
@@ -100,23 +102,31 @@ public class Spawner : MonoBehaviour
     public void ActiveRandomPortals()
     {
         int portal2Active = Random.Range(1, 5);
-
+        Debug.Log(portal2Active);
         switch (portal2Active)
         {
             case 1:
                 GlobalVariables.isActivePortal1 = true;
+                Debug.Log("P1 => " + GlobalVariables.isActivePortal1);
+                portal.Active();
                 return;
 
             case 2:
                 GlobalVariables.isActivePortal2 = true;
+                Debug.Log("P2 => " + GlobalVariables.isActivePortal2);
+                portal.Active();
                 return;
 
             case 3:
                 GlobalVariables.isActivePortal3 = true;
+                Debug.Log("P3 => " + GlobalVariables.isActivePortal3);
+                portal.Active();
                 return;
 
             case 4:
                 GlobalVariables.isActivePortal4 = true;
+                Debug.Log("P4 => " + GlobalVariables.isActivePortal4);
+                portal.Active();
                 return;
         }
     }
