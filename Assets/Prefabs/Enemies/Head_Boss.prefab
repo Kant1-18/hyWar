@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2637063695449520078}
   - component: {fileID: 2513478345412445916}
   - component: {fileID: -7627408702840325178}
+  - component: {fileID: -5298750725083462798}
   m_Layer: 0
   m_Name: Head_Boss
   m_TagString: Projrctile1
@@ -182,3 +183,19 @@ PolygonCollider2D:
       - {x: 0.32, y: -0.155}
       - {x: 0.32, y: 0.074999996}
   m_UseDelaunayMesh: 0
+--- !u!114 &-5298750725083462798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9059226552434834937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 377ca0c7e81bb5b4d9d277599bbd47df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  life3: 0
+  Attack1: 0
+  Attack2: 0
+  Attack3: 0
