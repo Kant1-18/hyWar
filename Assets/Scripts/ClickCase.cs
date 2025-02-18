@@ -7,7 +7,7 @@ public class ClickCase : MonoBehaviour
 
     private void OnMouseDown()
     { 
-        spawner.Friend();
+        spawner.Friend(transform.position);
         gameObject.SetActive(false);
     }
 }
