@@ -16,6 +16,9 @@ TagManager:
   - Projrctile2
   - Projrctile3
   - Projectile
+  - Projectile3
+  - Projectile2
+  - Projectile1
   layers:
   - Default
   - TransparentFX

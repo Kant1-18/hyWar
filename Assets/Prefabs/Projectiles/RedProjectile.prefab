@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 5416513596681451030}
   - component: {fileID: 6218872620056232576}
   - component: {fileID: 7529819212104165404}
+  - component: {fileID: 4617951089247566878}
   m_Layer: 0
   m_Name: RedProjectile
-  m_TagString: Projrctile3
+  m_TagString: Projectile3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -167,3 +168,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4617951089247566878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728399189121811299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b2044e3775363f49bd98c05688ca1ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
