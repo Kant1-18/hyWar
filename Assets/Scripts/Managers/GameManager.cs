@@ -11,6 +11,20 @@ public class GameManager : MonoBehaviour
     public int EnemiesTime;
     public int EnemiesSpeed;
 
+    public int EnemiesLife1;
+    public int EnemiesLife2;
+    public int EnemiesLife3;
+    public int EnemiesAttack1;
+    public int EnemiesAttack2;
+    public int EnemiesAttack3;
+
+    public int ShipAttack1;
+    public int ShipAttack2;
+    public int ShipAttack3;
+    public int ShipLife1;
+    public int ShipLife2;
+    public int ShipLife3;
+
     public GameObject PrefabGeneratorEmpty;
     public GameObject PrefabGeneratorFull;
     public GameObject PrefabShield;
@@ -31,6 +45,13 @@ public class GameManager : MonoBehaviour
         GlobalVariables.EnemiesTime = EnemiesTime;
         GlobalVariables.EnemiesSpeed = EnemiesSpeed;
 
+        GlobalVariables.EnemiesLife1 = EnemiesLife1;
+        GlobalVariables.EnemiesLife2 = EnemiesLife2;
+        GlobalVariables.EnemiesLife3 = EnemiesLife3;
+
+        GlobalVariables.ShipAttack1 = ShipAttack1;
+        GlobalVariables.ShipAttack2 = ShipAttack2;
+        GlobalVariables.ShipAttack3 = ShipAttack3;
 
         //init Prefabs
         GlobalVariables.PrefabGeneratorEmpty = PrefabGeneratorEmpty;
