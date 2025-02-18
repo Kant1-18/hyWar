@@ -4,7 +4,7 @@ using System.Collections;
 public class GeneratorEmpty : MonoBehaviour
 {
 	private int frame;
-	private Spawner spawner = new Spawner();
+	private Spawner spawner;
 
 	void Update()
 	{
