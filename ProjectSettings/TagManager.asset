@@ -5,6 +5,17 @@ TagManager:
   serializedVersion: 3
   tags:
   - Planeta
+  - Shield
+  - Ship1
+  - Ship2
+  - Ship3
+  - Enemy1
+  - Enemy2
+  - Enemy3
+  - Projrctile1
+  - Projrctile2
+  - Projrctile3
+  - Projectile
   layers:
   - Default
   - TransparentFX

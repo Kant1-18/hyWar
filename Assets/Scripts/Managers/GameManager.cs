@@ -32,6 +32,8 @@ public class GameManager : MonoBehaviour
     public int EnemyAttack2;
     public int EnemyAttack3;
 
+    public int ShieldLife;
+
     public GameObject PrefabGeneratorEmpty;
     public GameObject PrefabGeneratorFull;
     public GameObject PrefabShield;
@@ -73,6 +75,7 @@ public class GameManager : MonoBehaviour
         GlobalVariables.EnemyAttack2 = EnemyAttack2;
         GlobalVariables.EnemyAttack3 = EnemyAttack3;
 
+        GlobalVariables.ShieldLife = ShieldLife;
 
         //init Prefabs
         GlobalVariables.PrefabGeneratorEmpty = PrefabGeneratorEmpty;
