@@ -7,6 +7,7 @@ public class GlobalVariables: MonoBehaviour
 
     public static int Difficulty { get; set; } // de 1 à 3
     public static int EnemiesTime { get; set; }
+    public static int EnemiesSpeed { get; set; }
 
     public static GameObject PrefabShip1 { get; set; }
     public static GameObject PrefabShip2 { get; set; }

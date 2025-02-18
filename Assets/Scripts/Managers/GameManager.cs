@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 
     public int Difficulty;
     public int EnemiesTime;
+    public int EnemiesSpeed;
 
     public GameObject PrefabGeneratorEmpty;
     public GameObject PrefabGeneratorFull;
@@ -28,6 +29,7 @@ public class GameManager : MonoBehaviour
 
         GlobalVariables.Difficulty = Difficulty;
         GlobalVariables.EnemiesTime = EnemiesTime;
+        GlobalVariables.EnemiesSpeed = EnemiesSpeed;
 
 
         //init Prefabs
