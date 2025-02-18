@@ -11,6 +11,11 @@ public class GameManager : MonoBehaviour
     public int EnemiesTime;
     public int EnemiesSpeed;
     public int GeneratorTime;
+    public int Ship1Cost;
+    public int Ship2Cost;
+    public int Ship3Cost;
+    public int ShieldCost;
+    public int GeneratorCost;
 
     public GameObject PrefabGeneratorEmpty;
     public GameObject PrefabGeneratorFull;
@@ -32,6 +37,11 @@ public class GameManager : MonoBehaviour
         GlobalVariables.Difficulty = Difficulty;
         GlobalVariables.EnemiesTime = EnemiesTime;
         GlobalVariables.EnemiesSpeed = EnemiesSpeed;
+        GlobalVariables.ShieldCost = ShieldCost;
+        GlobalVariables.GeneratorCost = GeneratorCost;
+        GlobalVariables.Ship1Cost = Ship1Cost;
+        GlobalVariables.Ship2Cost = Ship2Cost;
+        GlobalVariables.Ship3Cost = Ship3Cost;
 
 
         //init Prefabs

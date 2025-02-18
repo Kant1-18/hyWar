@@ -8,28 +8,43 @@ public class Spawner : MonoBehaviour
         switch (GlobalVariables.FriendObject)
         {
             case "ship1":
+                if (GlobalVariables.Coins < GlobalVariables.Ship1Cost) return null;
+                GlobalVariables.Coins -= GlobalVariables.Ship1Cost;
                 return GlobalVariables.PrefabShip1;
 
             case "ship2":
+                if (GlobalVariables.Coins < GlobalVariables.Ship2Cost) return null;
+                GlobalVariables.Coins -= GlobalVariables.Ship2Cost;
                 return GlobalVariables.PrefabShip2;
 
             case "ship3":
+                if (GlobalVariables.Coins < GlobalVariables.Ship3Cost) return null;
+                GlobalVariables.Coins -= GlobalVariables.Ship3Cost;
                 return GlobalVariables.PrefabShip3;
 
             case "shield":
+                if (GlobalVariables.Coins < GlobalVariables.ShieldCost) return null;
+                GlobalVariables.Coins -= GlobalVariables.ShieldCost;
                 return GlobalVariables.PrefabShield;
 
             case "generator":
+                if (GlobalVariables.Coins < GlobalVariables.GeneratorCost) return null;
+                GlobalVariables.Coins -= GlobalVariables.GeneratorCost;
                 return GlobalVariables.PrefabGeneratorEmpty;
         }
 
         return null;
     }
 
-    public void Friend(Vector3 position)
+    public GameObject Friend(Vector3 position)
     {
-        GameObject spawnedPrefab = Instantiate(SelectFriend());
+        GameObject selectedFriend = SelectFriend();
+        if (selectedFriend == null) return null; 
+
+        GameObject spawnedPrefab = Instantiate(selectedFriend);
         spawnedPrefab.transform.position = position;
+
+        return spawnedPrefab; 
     }
 
     private GameObject SelectEnemy(int difficulty)
